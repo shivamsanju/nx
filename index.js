@@ -39,7 +39,13 @@ const validateAndUpdate = (token, sessionRefresh) => {
   return token;
 };
 
-const allowSingleSession = (token, account, sessionRefresh) => {
+const allowSingleSession = (token, account, sessionRefresh, dev = false) => {
+  // if environment is dev don't use session key
+  if (dev) {
+    token.authenticated = true;
+    return token;
+  }
+
   if (isNaN(Number(sessionRefresh))) {
     throw new Error('sessionRefresh must be a number');
   }
