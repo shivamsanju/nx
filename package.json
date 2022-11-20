@@ -1,5 +1,5 @@
 {
-  "name": "nx",
+  "name": "@shvmsnju/nx",
   "version": "1.0.0",
   "description": "next auth with in memory db support",
   "type": "module",
