@@ -1,7 +1,7 @@
 {
   "name": "@shvmsnju/nx",
   "version": "1.0.0",
-  "description": "next auth with in memory db support",
+  "description": "Next auth extension for single session management without any database",
   "type": "module",
   "main": "index.js",
   "types": "index.d.ts",
