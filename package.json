@@ -1,6 +1,6 @@
 {
   "name": "@shvmsnju/nx",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Next auth extension for single session management without any database",
   "type": "module",
   "main": "index.js",

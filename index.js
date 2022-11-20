@@ -39,7 +39,12 @@ const validateAndUpdate = (token, sessionRefresh) => {
   return token;
 };
 
-const allowSingleSession = (token, account, sessionRefresh, dev = false) => {
+const allowSingleSession = (
+  token,
+  account,
+  sessionRefresh = 60000,
+  dev = false
+) => {
   // if environment is dev don't use session key
   if (dev) {
     token.authenticated = true;
