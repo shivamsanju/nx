@@ -5,7 +5,7 @@ This package is an extension for the next-auth package and can be integrated wit
 ## Installation
 
 ```bash
-npm install --save @shvmsnju/nx
+npm install @shvmsnju/nx
 ```
 
 ## Setup
